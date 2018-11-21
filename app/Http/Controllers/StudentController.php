@@ -8,7 +8,7 @@ use App\Http\Requests;
 
 use App\Student;
 
-use view;
+use View;
 class StudentController extends Controller
 {
     public function getStudentData($student_no)
